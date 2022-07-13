@@ -71,7 +71,7 @@
  .calculator span
  {
     display: grid;
-    width: 5vw;
+    width: 75px;
     height: 8vh;
     user-select: none;
     color: white;
