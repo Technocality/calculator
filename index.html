@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="calculator">
+            <input type="text" class="value" name="screen" id="screen" s>
+            <span class="num clear">C</span>
+            <span class="num">(</span>
+            <span class="num">)</span>
+            <span class="num">7</span>
+            <span class="num">8</span>
+            <span class="num">9</span>
+            <span class="num">/</span>
+            <span class="num">4</span>
+            <span class="num">5</span>
+            <span class="num">6</span>
+            <span class="num">*</span>
+            <span class="num">1</span>
+            <span class="num">2</span>
+            <span class="num">3</span>
+            <span class="num">-</span>
+            <span class="num">0</span>
+            <span class="num">.</span>
+            <span class="num">DEL</span>
+            <span class="num ">+</span>
+            <span class="num">sin</span>
+            <span class="num">cos</span>
+            <span class="num">tan</span>
+            <span class="num">%</span>
+            <span class="num">log</span>
+            <span class="num">√</span>
+            <span class="num">
+                <p>x<sup> y</sup></p>
+            </span>
+            <span class="num equal">=</span>
+        </form>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".container"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max- glare": 0.2
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
